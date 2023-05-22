@@ -1,0 +1,88 @@
+@import url(/CSS/NullStyle.css);
+
+.slider-container {
+  position: relative;
+  width: 1220px;
+  height: 550px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: transform 0s ease-in-out;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.8s ease;
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.prev-button,
+.next-button {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px 10px;
+  font-size: 30px;
+}
+
+.content {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.furniture__name {
+  margin: 35px 0 50px -20px;
+  font-size: 24px;
+}
+
+.furniture,
+.aluminium,
+.glass {
+  margin: 30px 0 30px 50px;
+}
+
+.furniture__block,
+.glass__block,
+.aluminium__block {
+  display: flex;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+.furniture__img,
+.glass__img,
+.aluminium__img {
+  width: 300px;
+  height: 250px;
+}
+
+.furniture__info,
+.glass__info,
+.aluminium__info {
+  margin-left: 25px;
+  width: 800px;
+}
+
+.contacts{
+  color: #fff;
+  font-size: 18px;
+}
