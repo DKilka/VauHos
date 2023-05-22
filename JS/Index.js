@@ -1,12 +1,12 @@
 const images = [
-  "/IMG/glass_05.jpg",
-  "/IMG/glass_04.jpg",
-  "/IMG/glass_03.jpg",
-  "/IMG/glass_02.jpg",
-  "/IMG/alum_03.jpg",
-  "/IMG/alum_02.jpg",
-  "/IMG/furn_02.jpg",
-  "/IMG/furn_01.jpg",
+  "../IMG/glass_05.jpg",
+  "../IMG/glass_04.jpg",
+  "../IMG/glass_03.jpg",
+  "../IMG/glass_02.jpg",
+  "../IMG/alum_03.jpg",
+  "../IMG/alum_02.jpg",
+  "../IMG/furn_02.jpg",
+  "../IMG/furn_01.jpg",
 ];
 
 let currentSlideIndex = 0;
