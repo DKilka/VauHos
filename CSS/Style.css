@@ -2,16 +2,14 @@
 
 .slider-container {
   position: relative;
-  width: 1220px;
-  height: 550px;
+  max-width: 1220px;
+  max-height: 550px;
   overflow: hidden;
   margin: 0 auto;
   margin-top: 30px;
 }
 
 .slider {
-  width: 100%;
-  height: 100%;
   display: flex;
   transition: transform 0s ease-in-out;
 }
@@ -71,18 +69,56 @@
 .furniture__img,
 .glass__img,
 .aluminium__img {
-  width: 300px;
-  height: 250px;
+  max-width: 300px;
+  max-height: 250px;
 }
 
 .furniture__info,
 .glass__info,
 .aluminium__info {
   margin-left: 25px;
-  width: 800px;
 }
 
-.contacts{
+.contacts {
   color: #fff;
   font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .content {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    max-width: none;
+  }
+  .header__info{
+    display: none;
+  }
+  .furniture__block,
+  .glass__block,
+  .aluminium__block {
+    display: block;
+    margin: 0px;
+  }
+  .img {
+    display: block;
+    margin: 20px 50px 0 10px;
+
+  }
+  .furniture__info,
+  .glass__info,
+  .aluminium__info {
+    display: block;
+    margin: 20px 50px 0 10px;
+
+  }
 }
