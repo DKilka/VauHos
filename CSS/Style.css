@@ -86,13 +86,17 @@
 
 @media (max-width: 1200px) {
   .content {
-    max-width: 970px;
+    max-width: 1200px;
+  }
+  .img {
+    display: block;
+    margin: 0 auto;
   }
 }
 
 @media (max-width: 992px) {
   .content {
-    max-width: 750px;
+    max-width: 990px;
   }
 }
 
@@ -100,25 +104,36 @@
   .content {
     max-width: none;
   }
-  .header__info{
+
+  .info {
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+
+  .header__info {
     display: none;
   }
+
   .furniture__block,
   .glass__block,
   .aluminium__block {
     display: block;
     margin: 0px;
   }
+
   .img {
     display: block;
     margin: 20px 50px 0 10px;
-
   }
+
+  .furniture__name {
+    margin: 0;
+  }
+
   .furniture__info,
   .glass__info,
   .aluminium__info {
     display: block;
     margin: 20px 50px 0 10px;
-
   }
 }
