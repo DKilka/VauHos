@@ -43,6 +43,10 @@ html {
   font-weight: 700;
 }
 
+.subBur__contacts{
+  margin-left: 30%;
+}
+
 .contacts__cityPlace {
   display: flex;
   justify-content: center;
@@ -164,9 +168,6 @@ html {
   .subBur__contacts {
     display: none;
   }
-  .subBur{
-    
-  }
   .contacts__maps:first-child {
     display: block;
     max-width: 100%;
@@ -177,10 +178,25 @@ html {
   .contacts__cityPlace {
     padding-top: 50px;
   }
+  .subBur__place{
+    margin-left: -120%;
+  }
 }
 
 @media (max-width: 750px) {
   .content {
     max-width: none;
+  }
+}
+
+@media (max-width: 470px){
+  header{
+    min-width: 105%;
+  }
+  footer{
+    min-width: 105%
+  }
+  .contacts__info {
+    max-width: 95%;
   }
 }
