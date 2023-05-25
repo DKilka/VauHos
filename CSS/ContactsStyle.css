@@ -196,4 +196,7 @@ html {
   .contacts__info {
     max-width: 60%;
   }
+  .content{
+    margin-right:30px ;
+  }
 }
