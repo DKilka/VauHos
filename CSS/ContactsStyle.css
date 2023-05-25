@@ -190,13 +190,10 @@ html {
 }
 
 @media (max-width: 470px){
-  header{
-    min-width: 105%;
-  }
-  footer{
-    min-width: 105%
+  .subBur__place{
+    margin-left: -200px;
   }
   .contacts__info {
-    max-width: 95%;
+    max-width: 60%;
   }
 }
