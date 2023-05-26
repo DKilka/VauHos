@@ -171,6 +171,7 @@ html {
   .contacts__maps:first-child {
     display: block;
     max-width: 100%;
+    
   }
   .contacts__info {
     min-width: 95%;
@@ -198,5 +199,8 @@ html {
   }
   .content{
     margin-right:30px ;
+  }
+  iframe{
+    height: 350px;
   }
 }
