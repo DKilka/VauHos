@@ -66,6 +66,10 @@
   margin-left: 10px;
 }
 
+.header__tel{
+  display: none;
+}
+
 .furniture__img,
 .glass__img,
 .aluminium__img {
@@ -140,6 +144,13 @@
     display: block;
     margin: 20px 50px 0 10px;
   }
+
 }
 
-
+@media (max-width: 470px){
+    .header__tel{
+    display: inline-block;
+    max-width: 30px;
+    max-height: 30px; 
+  }
+}
