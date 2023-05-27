@@ -10,6 +10,10 @@ const images = [
   "../IMG/furn_01.jpg",
 ];
 
+window.addEventListener("DOMContentLoaded", function() {
+  slide.src = images[currentSlideIndex];
+});
+
 let currentSlideIndex = 0;
 let isHovered = false;
 
