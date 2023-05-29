@@ -1,16 +1,16 @@
 const images = [
-  "../IMG/glass_05.jpg",
-  "../IMG/glass_04.jpg",
-  "../IMG/glass_03.jpg",
-  "../IMG/glass_02.jpg",
-  "../IMG/alum_03.jpg",
-  "../IMG/alum_02.jpg",
-  "../IMG/alum_01.jpg",
-  "../IMG/furn_02.jpg",
-  "../IMG/furn_01.jpg",
+  "../IMG/photo_2023-05-29_16-12-54.jpg",
+  "../IMG/slide_furnit_02.png",
+  "../IMG/slide_furnit_03.jpg",
+  "../IMG/slide_furnit_04.jpg",
+  "../IMG/slide_furnit_05.jpg",
+  "../IMG/slide_furnit_06.jpg",
+  "../IMG/slide_furnit_07.jpg",
+  "../IMG/slide_glass_01.jpg",
+  "../IMG/slide_glass_02.jpg",
 ];
 
-window.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("DOMContentLoaded", function () {
   slide.src = images[currentSlideIndex];
 });
 
@@ -83,4 +83,4 @@ setInterval(function () {
   if (!isHovered) {
     nextSlide();
   }
-}, 5000);
+}, 15000);
