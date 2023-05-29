@@ -14,8 +14,8 @@
   transition: transform 0s ease-in-out;
 }
 
-.slider > img {
-  width: 1220px;
+.slider  img {
+  width: 1200px;
   height: 550px;
 }
 
@@ -162,6 +162,11 @@
   .aluminium__info {
     display: block;
     margin: 20px 50px 0 10px;
+    font-size: 16px;
+  }
+
+  .info{
+    font-size: 18px;
   }
 }
 
@@ -170,5 +175,8 @@
     display: inline-block;
     max-width: 30px;
     max-height: 30px;
+  }
+  .info{
+    margin: 0 10px;
   }
 }

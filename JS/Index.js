@@ -1,6 +1,6 @@
 const images = [
-  "../IMG/photo_2023-05-29_16-12-54.jpg",
-  "../IMG/slide_furnit_02.png",
+  "../IMG/photo_2023-05-29_16-37-59.jpg",
+  "../IMG/photo_2023-05-29_16-37-59.jpg",
   "../IMG/slide_furnit_03.jpg",
   "../IMG/slide_furnit_04.jpg",
   "../IMG/slide_furnit_05.jpg",
