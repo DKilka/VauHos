@@ -1,13 +1,12 @@
 const images = [
-  "../IMG/photo_2023-05-29_16-37-59.jpg",
-  "../IMG/photo_2023-05-29_16-37-59.jpg",
-  "../IMG/slide_furnit_03.jpg",
-  "../IMG/slide_furnit_04.jpg",
-  "../IMG/slide_furnit_05.jpg",
-  "../IMG/slide_furnit_06.jpg",
-  "../IMG/slide_furnit_07.jpg",
-  "../IMG/slide_glass_01.jpg",
-  "../IMG/slide_glass_02.jpg",
+  "../IMG/slider_furnit_01.jpg",
+  "../IMG/slider_furnit_02.jpg",
+  "../IMG/slider_furnit_03.jpg",
+  "../IMG/slider_glass_01.jpg",
+  "../IMG/slider_glass_02.jpg",
+  "../IMG/slider_shower_01.jpg",
+  "../IMG/slider_shower_02.jpg",
+  "../IMG/slider_shower_03.jpg",
 ];
 
 window.addEventListener("DOMContentLoaded", function () {

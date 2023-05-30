@@ -150,7 +150,7 @@
   .furniture__img,
   .glass__img,
   .aluminium__img {
-    max-width: 220px;
+    max-width: 260px;
   }
 
   .furniture__name {
@@ -161,7 +161,7 @@
   .glass__info,
   .aluminium__info {
     display: block;
-    margin: 20px 50px 0 10px;
+    margin: 20px 20px 0 -20px;
     font-size: 16px;
   }
 
@@ -178,5 +178,14 @@
   }
   .info{
     margin: 0 10px;
+  }
+  .furniture__img,
+  .glass__img,
+  .aluminium__img {
+    max-width: 260px;
+    margin-left:-10px;
+  }
+  .furniture__name{
+    margin: 0 20px 0 0;
   }
 }
