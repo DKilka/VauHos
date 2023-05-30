@@ -168,23 +168,14 @@ pre {
   display: inline;
 }
 
-.footer__social ul {
+footer div{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer__social img {
-  width: 20px;
-  height: 20px;
-}
-
-.footer__social {
-  width: 20px;
-  height: 20px;
-}
-
-.fh3 {
-  padding-left: -20px;
+.footer{
+  max-height: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -264,22 +255,6 @@ pre {
   .contacts__socialNet {
     margin-left: 10px;
   }
-  .footer__social img {
-    width: 20px;
-    height: 20px;
-  }
-  .footer__social ul {
-    display: flex;
-  }
-  .footer__social li {
-    margin: -5px -20px;
-    flex-wrap: wrap;
-  }
-  .footer__social a{
-    margin-top: -0px;
-    margin-left: 10px;
-  }
-  .fh3{
-    display: none;
-  }
+
+
 }

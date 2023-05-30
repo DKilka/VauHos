@@ -7,6 +7,7 @@ const images = [
   "../IMG/slider_shower_01.jpg",
   "../IMG/slider_shower_02.jpg",
   "../IMG/slider_shower_03.jpg",
+  "../IMG/зображення_viber_2023-05-30_13-49-17-496.jpg"
 ];
 
 window.addEventListener("DOMContentLoaded", function () {
