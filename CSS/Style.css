@@ -15,7 +15,7 @@
 }
 
 .slider  img {
-  width: 1200px;
+  width: 1220px;
   height: 550px;
 }
 
@@ -107,6 +107,14 @@
     display: block;
     margin: 0 auto;
   }
+  .slider  img {
+    width: 360px;
+    height: 600px;
+  }
+  .slider-container {
+    width: 360px;
+    height: 600px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -118,6 +126,14 @@
 @media (max-width: 767px) {
   .content {
     max-width: none;
+  }
+
+  .slider {
+    display: block;
+  }
+
+  .desktop-image {
+    display: none;
   }
 
   .footer__social a {
@@ -175,6 +191,14 @@
     display: inline-block;
     max-width: 30px;
     max-height: 30px;
+  }
+  .slider  img {
+    width: 300px;
+    height: 500px;
+  }
+  .slider-container {
+    width: 300px;
+    height: 500px;
   }
   .info{
     margin: 0 10px;
